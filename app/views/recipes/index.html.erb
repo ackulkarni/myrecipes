@@ -1,4 +1,6 @@
-<h1 align="center"> Lising all recipes</h1>
+<%= render 'shared/page_title', title: "showing all recipes" %>
+
+
 
 <hr/>
 
@@ -10,7 +12,7 @@
       </section>
     </div>
     <div class= "col-md-8 well">
-      <h4><%=recipe.name %> </h4>
+      <h4><%=link_to recipe.name,recipe_path(recipe) %> </h4>
       <p><%=truncate(recipe.description,length:150)%></p>
       <p>
         
