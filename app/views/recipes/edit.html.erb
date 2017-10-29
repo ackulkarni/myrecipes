@@ -1,4 +1,4 @@
-<%= render 'shared/page_title', title: "create a new recipe" %>
+<%= render 'shared/page_title', title: "Edit an existing page" %>
 <% if @recipe.errors.any?%>
 
 <div  class = "row">
@@ -10,7 +10,7 @@
            <%= pluralize(@recipe.errors.count, "error")%>
             prohibited this <%=@recipe.class %> from being saved:
           </h2>
-          <div class = "panel-body">
+          <div class= "panel-body">
           <ul>
             <% @recipe.errors.full_messages.each do |msg| %>
             <li><%= msg %></li>
