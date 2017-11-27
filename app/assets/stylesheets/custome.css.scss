@@ -168,12 +168,24 @@ footer ul li {
 }
 
 .colormatch a {
-  color: #a32304;
+    color: #a32304;
 }
 .recipe-actions{
   padding-top: 5px;
   a {
   color: #fff;
 }
+
+.listing{
+  list-style: none;
+  padding-left: 0;
 }
 
+.chef-title{
+  color: #a32304;
+  font-weight: bold;
+  font-size: 1.25em;
+
+}
+
+}
