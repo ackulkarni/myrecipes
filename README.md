@@ -24,3 +24,9 @@ Things you may want to cover:
 * ...
 # myrecipes
 # myrecipes
+
+ *push code to heroku
+git push heroku master
+
+*Run migration for heroku
+Heroku run rails db:migrate
