@@ -22,6 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+* 
+#To start the server:
+rails s -b $IP -p $PORT
+#flash
+
+#Key SSH
+ $ cat ~/.ssh/id_rsa.pub
 # myrecipes
 # myrecipes
 
